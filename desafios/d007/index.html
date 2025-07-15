@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você etsá vendo a imagem completa? Experimente ampliar o tamanho da sua janela e aproveite melhor experiência!</p>
+ <img
+  src="paisagem-media.png"
+  alt="Mulher de braços abertos em um topo de montanha com vista para a paisagem"
+  srcset="
+    paisagem-pequena.png 400w,
+    paisagem-media.png   800w,
+    paisagem-grande.png 1200w
+  "
+  sizes="
+    (max-width: 600px) 100vw,   /* Se a tela tiver até 600px de largura, a imagem ocupa 100% da largura do viewport */
+    (max-width: 900px) 70vw,    /* Se a tela tiver entre 601px e 900px, a imagem ocupa 70% da largura do viewport */
+    900px                      /* Para telas maiores que 900px, a imagem terá 900px de largura (fixa, se desejar) */
+  ">
+</body>
+</html>

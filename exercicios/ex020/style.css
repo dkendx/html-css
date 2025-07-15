@@ -1,0 +1,38 @@
+@charset "UTF-8" ;
+
+body  {
+    background-color:#0BCCD3;
+}
+
+h1 {
+    color: rgb(3, 45, 61);
+}
+#principal {
+    text-align: center;
+    background-color: rgb(3, 45, 61);
+    color: white;
+   
+}
+h2 {
+    color: rgb(29, 89, 112);
+}
+.basico{
+
+    color: rgb(140, 182, 24);
+}
+.intermed{
+    
+    color: rgb(65, 134, 56);
+}
+.adv{
+
+    color: rgb(240, 16, 16);
+}
+button {
+    background-color: rgb(3, 45, 61);
+    color: white;
+    border: purple;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: inherit;
+}   

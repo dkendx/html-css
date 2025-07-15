@@ -1,0 +1,12 @@
+#outer{
+  background-color: blue;
+}
+#inner{
+  width:400px;
+  height:400px;
+  background-image:url(https://t4.ftcdn.net/jpg/09/83/98/09/360_F_983980918_Put4YfWMOydwJ7hJtjEjpUly9SIlLQ1M.jpg);
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
