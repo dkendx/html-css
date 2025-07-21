@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de imagem de fundo</title>
+    <style>
+        
+        div.quad {
+        display: inline-block; 
+        border: 1px solid black;
+         border-radius: 10px;
+         background-color: lightgray;
+         width: 200px;
+         height: 200px;
+        }
+        /* são três maneiras de estilizar um fundo */
+        div#q1{
+            background-color: skyblue;
+        }
+        /* usa uma cor sólida */
+        div#q2{
+            background-image: linear-gradient(to bottom, yellow, rgb(255, 0, 0));
+        }
+        /* usa um gradiente linear */
+        div#q3{
+            background-image: url('imagens/pattern003.png');
+        }
+        /* usa uma imagem de fundo */
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="quad" id="q1"></div>
+    <div class="quad" id="q2"></div>
+    <div class="quad" id="q3"></div>
+    
+</body>
+</html>
